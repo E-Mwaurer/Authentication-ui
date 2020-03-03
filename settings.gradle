@@ -1,0 +1,3 @@
+rootProject.name='Auth UI'
+include ':app'
+include ':auth_ui'
