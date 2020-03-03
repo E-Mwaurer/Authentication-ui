@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_view_display_name">Login</string>
+    <string name="user_name_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="reset_btn_txt">reset</string>
+    <string name="submit_btn_txt">login</string>
+    <string name="copyrights_markup">Copyrights © 2019 Malipo Popote Solutions</string>
+</resources>

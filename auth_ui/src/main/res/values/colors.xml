@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_hints_color">#52afaa</color>
+    <color name="login_input_text_color">#6bfff7</color>
+</resources>
