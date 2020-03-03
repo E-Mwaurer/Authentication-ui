@@ -1,15 +1,11 @@
-package com.jnr.dread.auth_handler
+package com.jnr.dread.auth_ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.jnr.dread.auth_ui.R
 
-/**
- * A simple [Fragment] subclass.
- */
 abstract class BaseRegisterFragment : Fragment() {
 
     override fun onCreateView(
