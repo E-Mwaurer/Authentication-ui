@@ -6,4 +6,5 @@
     <string name="reset_btn_txt">reset</string>
     <string name="submit_btn_txt">login</string>
     <string name="copyrights_markup">Copyrights © 2019 Malipo Popote Solutions</string>
+    <string name="hello_blank_fragment">Hello World</string>
 </resources>
