@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/sampleLogin">
+
+    <fragment
+        android:id="@+id/sampleLogin"
+        android:name="com.jnr.dread.authui.SampleLogin"
+        android:label="SampleLogin"
+        tools:layout="@layout/fragment_base_login" />
+</navigation>

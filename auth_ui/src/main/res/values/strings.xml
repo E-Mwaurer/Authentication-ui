@@ -7,4 +7,6 @@
     <string name="submit_btn_txt">login</string>
     <string name="copyrights_markup">Copyrights © 2019 Malipo Popote Solutions</string>
     <string name="hello_blank_fragment">Hello World</string>
+    <string name="reset_password_link_text"><![CDATA[<a href="#">Reset Password</a>]]></string>
+    <string name="btn_register_text">Register</string>
 </resources>
