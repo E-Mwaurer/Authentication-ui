@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-
         <variable
             name="payload"
             type="com.jnr.dread.auth_ui.LoginPayload" />
@@ -17,7 +16,7 @@
             android:id="@+id/app_icon_id"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="32dp"
             android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toTopOf="@+id/et_user_name"
             app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +39,6 @@
             android:singleLine="true"
             android:text="@={payload.userName}"
             android:textAlignment="center"
-            android:textColor="@color/login_input_text_color"
             android:textColorHint="@color/login_hints_color"
             app:layout_constraintBottom_toTopOf="@+id/et_password"
             app:layout_constraintEnd_toEndOf="parent"
@@ -60,7 +58,6 @@
             android:singleLine="true"
             android:text="@={payload.secret}"
             android:textAlignment="center"
-            android:textColor="@color/login_input_text_color"
             android:textColorHint="@color/login_hints_color"
             app:layout_constraintEnd_toEndOf="@+id/et_user_name"
             app:layout_constraintHorizontal_bias="0.0"
@@ -69,9 +66,8 @@
 
         <Button
             android:id="@+id/btn_login"
-            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:text="@string/submit_btn_txt"
@@ -83,9 +79,8 @@
 
         <Button
             android:id="@+id/btn_register"
-            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_height="0dp"
             android:layout_marginStart="8dp"
             android:text="@string/btn_register_text"
             app:layout_constraintBaseline_toBaselineOf="@+id/btn_login"

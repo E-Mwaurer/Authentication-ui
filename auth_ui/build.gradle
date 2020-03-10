@@ -1,10 +1,11 @@
-apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-kapt'
-apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
-
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+    id 'com.github.dcendents.android-maven'
+    id 'com.jfrog.bintray'
+}
 ext {
     bintrayRepo = 'Authentication-UI'
     bintrayName = 'com.jnr.dread.authui'
@@ -13,11 +14,11 @@ ext {
 
     publishedGroupId = 'com.jnr.dread.authentication-ui'
     artifact = 'authentication-ui'
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     libraryDescription = 'A Library for all authentication user interfaces.'
-    siteUrl = 'https://edduemwaurer@bitbucket.org/edduemwaurer/auth-ui'
-    gitUrl = 'https://edduemwaurer@bitbucket.org/edduemwaurer/auth-ui.git'
+    siteUrl = 'https://github.com/E-Mwaurer/Authentication-ui'
+    gitUrl = 'https://github.com/E-Mwaurer/Authentication-ui.git'
     developerId = 'eduer_mwaurer'
     developerName = 'Edward .N. Mwaurer'
     developerEmail = 'edduemwaurer@outlook.com'
@@ -25,12 +26,7 @@ ext {
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
 }
-/*
-bintray {
-    pkg {
-        userOrg = 'malipo-popote'
-    }
-}*/
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -60,7 +56,6 @@ android {
 dependencies {
     def data_binding_version = "3.1.4"
     def koin_version = "2.0.1"
-    def material_version = "1.2.0-alpha05"
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -78,7 +73,10 @@ dependencies {
     implementation "org.koin:koin-androidx-viewmodel:$koin_version"
 
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation "com.google.android.material:material:$material_version"
+
+    // glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 }
 
 if (project.rootProject.file('local.properties').exists()) {
