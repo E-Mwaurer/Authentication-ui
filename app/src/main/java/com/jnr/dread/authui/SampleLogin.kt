@@ -1,6 +1,6 @@
 package com.jnr.dread.authui
 
-import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import com.jnr.dread.auth_ui.BaseLoginFragment
 import com.jnr.dread.auth_ui.LoginPayload
 
@@ -15,7 +15,7 @@ class SampleLogin: BaseLoginFragment() {
     }
 
     override fun onChangePassword() {
-        Toast.makeText(context,"I Wish Change My Password",Toast.LENGTH_SHORT).show()
+        this.findNavController().navigate(R.id.sampleChangePassword)
     }
 
     override fun onReset() {

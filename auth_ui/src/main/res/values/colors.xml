@@ -2,4 +2,5 @@
 <resources>
     <color name="login_hints_color">#52afaa</color>
     <color name="login_input_text_color">#6bfff7</color>
+    <color name="box_stroke_color">#3F59B5</color>
 </resources>

@@ -9,4 +9,10 @@
     <string name="hello_blank_fragment">Hello World</string>
     <string name="reset_password_link_text"><![CDATA[<a href="#">Reset Password</a>]]></string>
     <string name="btn_register_text">Register</string>
+    <string name="app_icon_description">Application Icon</string>
+    <string name="btn_reset_pass_text">Reset Password</string>
+    <string name="old_password_hint">Old Password</string>
+    <string name="confirm_new_password_hint">Confirm Password</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="user_id_hint">Username</string>
 </resources>

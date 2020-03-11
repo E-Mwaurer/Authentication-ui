@@ -14,7 +14,7 @@ ext {
 
     publishedGroupId = 'com.jnr.dread.authentication-ui'
     artifact = 'authentication-ui'
-    libraryVersion = '1.0.1'
+    libraryVersion = '1.0.2'
 
     libraryDescription = 'A Library for all authentication user interfaces.'
     siteUrl = 'https://github.com/E-Mwaurer/Authentication-ui'
@@ -77,6 +77,8 @@ dependencies {
     // glide
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    //implementation 'com.google.android.material:material:1.1.0'
 }
 
 if (project.rootProject.file('local.properties').exists()) {

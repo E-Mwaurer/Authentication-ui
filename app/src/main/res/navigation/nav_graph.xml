@@ -8,6 +8,15 @@
     <fragment
         android:id="@+id/sampleLogin"
         android:name="com.jnr.dread.authui.SampleLogin"
-        android:label="SampleLogin"
-        tools:layout="@layout/fragment_base_login" />
+        android:label="Login"
+        tools:layout="@layout/fragment_base_login" >
+        <action
+            android:id="@+id/action_sampleLogin_to_sampleChangePassword"
+            app:destination="@id/sampleChangePassword" />
+    </fragment>
+    <fragment
+        android:id="@+id/sampleChangePassword"
+        android:name="com.jnr.dread.authui.SampleChangePassword"
+        android:label="Change Password"
+        tools:layout="@layout/fragment_base_change_password"/>
 </navigation>
