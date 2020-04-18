@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/E-Mwaurer/Authentication-ui">
-    <img src="https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/android/art/readmEmasterTemplatesAndroid.jpg" alt="Project Name" width=250 height=160>
+    <img src="https://raw.githubusercontent.com/tamzi/ReadMe-MasterTemplates/master/android/art/readmEmasterTemplatesAndroid.jpg" alt="Authentication-UI" width=250 height=160>
   </a>
   <h3 align="center">Authentication UI</h3>
 
