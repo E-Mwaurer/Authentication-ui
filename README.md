@@ -104,6 +104,9 @@ For any concerns, please open an [issue{edit this}](https://github.com/E-Mwaurer
 * see [LICENSE](https://github.com/E-Mwaurer/Authentication-ui/LICENSE.md) file
 
 
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FE-Mwaurer%2FAuthentication-ui.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FE-Mwaurer%2FAuthentication-ui?ref=badge_large)
+
 ## Versions 
 * Version 1.0  DATE 18/04/2020
 
@@ -112,6 +115,4 @@ FOSSA build badge:
 
 <hr>
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source-200x33.png?v=103)](https://github.com/ellerbrock/open-source-badge/)  
-
-
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source-200x33.png?v=103)](https://github.com/ellerbrock/open-source-badge/) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FE-Mwaurer%2FAuthentication-ui.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FE-Mwaurer%2FAuthentication-ui?ref=badge_shield)
