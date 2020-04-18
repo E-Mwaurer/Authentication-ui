@@ -109,8 +109,7 @@ For any concerns, please open an [issue](https://github.com/E-Mwaurer/Authentica
 * see [LICENSE file](https://github.com/E-Mwaurer/Authentication-ui/LICENSE.md)
 
 
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftamzi%2FReadMe-MasterTemplates.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftamzi%2FReadMe-MasterTemplates?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FE-Mwaurer%2FAuthentication-ui.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FE-Mwaurer%2FAuthentication-ui?ref=badge_large)
 
 ## Versions 
 * Version 1.0  DATE 18/04/2020
